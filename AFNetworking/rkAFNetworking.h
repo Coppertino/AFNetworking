@@ -37,7 +37,7 @@
     #import "rkAFImageRequestOperation.h"
 
     #if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
-        #importrkAFNetworkActivityIndicatorManager
+        #import "rkAFNetworkActivityIndicatorManager.h"
         #import "UIImageView+AFNetworking.h"
     #endif
 #endif /* _AFNETWORKING_ */
