@@ -21,12 +21,12 @@
 // THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import "AFURLConnectionOperation.h"
+#import "rkAFURLConnectionOperation.h"
 
 /**
- `AFHTTPRequestOperation` is a subclass of `AFURLConnectionOperation` for requests using the HTTP or HTTPS protocols. It encapsulates the concept of acceptable status codes and content types, which determine the success or failure of a request.
+ `AFHTTPRequestOperation` is a subclass of `rkAFURLConnectionOperation` for requests using the HTTP or HTTPS protocols. It encapsulates the concept of acceptable status codes and content types, which determine the success or failure of a request.
  */
-@interface AFHTTPRequestOperation : AFURLConnectionOperation
+@interface rkAFHTTPRequestOperation : rkAFURLConnectionOperation
 
 ///----------------------------------------------
 /// @name Getting HTTP URL Connection Information
@@ -99,7 +99,7 @@
 ///-----------------------------------------------------
 
 /**
- A Boolean value determining whether or not the class can process the specified request. For example, `AFJSONRequestOperation` may check to make sure the content type was `application/json` or the URL path extension was `.json`.
+ A Boolean value determining whether or not the class can process the specified request. For example, `rkAFJSONRequestOperation` may check to make sure the content type was `application/json` or the URL path extension was `.json`.
 
  @param urlRequest The request that is determined to be supported or not supported for this class.
  */
@@ -117,8 +117,8 @@
  @param success The block to be executed on the completion of a successful request. This block has no return value and takes two arguments: the receiver operation and the object constructed from the response data of the request.
  @param failure The block to be executed on the completion of an unsuccessful request. This block has no return value and takes two arguments: the receiver operation and the error that occurred during the request.
  */
-- (void)setCompletionBlockWithSuccess:(void (^)(AFHTTPRequestOperation *operation, id responseObject))success
-                              failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure;
+- (void)setCompletionBlockWithSuccess:(void (^)(rkAFHTTPRequestOperation *operation, id responseObject))success
+                              failure:(void (^)(rkAFHTTPRequestOperation *operation, NSError *error))failure;
 
 @end
 

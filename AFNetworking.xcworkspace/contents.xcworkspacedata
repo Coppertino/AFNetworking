@@ -5,55 +5,55 @@
       location = "group:AFNetworking"
       name = "AFNetworking">
       <FileRef
-         location = "group:AFHTTPClient.h">
+         location = "group:rkAFHTTPClient.m">
       </FileRef>
       <FileRef
-         location = "group:AFHTTPClient.m">
+         location = "group:rkAFNetworking.h">
       </FileRef>
       <FileRef
-         location = "group:AFHTTPRequestOperation.h">
+         location = "group:rkAFPropertyListRequestOperation.h">
       </FileRef>
       <FileRef
-         location = "group:AFHTTPRequestOperation.m">
+         location = "group:rkAFPropertyListRequestOperation.m">
       </FileRef>
       <FileRef
-         location = "group:AFImageRequestOperation.h">
+         location = "group:rkAFNetworkActivityIndicatorManager.h">
       </FileRef>
       <FileRef
-         location = "group:AFImageRequestOperation.m">
+         location = "group:rkAFNetworkActivityIndicatorManager.m">
       </FileRef>
       <FileRef
-         location = "group:AFJSONRequestOperation.h">
+         location = "group:rkAFHTTPClient.h">
       </FileRef>
       <FileRef
-         location = "group:AFJSONRequestOperation.m">
+         location = "group:rkAFHTTPRequestOperation.m">
       </FileRef>
       <FileRef
-         location = "group:AFNetworkActivityIndicatorManager.h">
+         location = "group:rkAFXMLRequestOperation.m">
       </FileRef>
       <FileRef
-         location = "group:AFNetworkActivityIndicatorManager.m">
+         location = "group:rkAFImageRequestOperation.m">
       </FileRef>
       <FileRef
-         location = "group:AFNetworking.h">
+         location = "group:rkAFXMLRequestOperation.h">
       </FileRef>
       <FileRef
-         location = "group:AFPropertyListRequestOperation.h">
+         location = "group:rkAFImageRequestOperation.h">
       </FileRef>
       <FileRef
-         location = "group:AFPropertyListRequestOperation.m">
+         location = "group:rkAFJSONRequestOperation.h">
       </FileRef>
       <FileRef
-         location = "group:AFURLConnectionOperation.h">
+         location = "group:rkAFHTTPRequestOperation.h">
       </FileRef>
       <FileRef
-         location = "group:AFURLConnectionOperation.m">
+         location = "group:rkAFJSONRequestOperation.m">
       </FileRef>
       <FileRef
-         location = "group:AFXMLRequestOperation.h">
+         location = "group:rkAFURLConnectionOperation.h">
       </FileRef>
       <FileRef
-         location = "group:AFXMLRequestOperation.m">
+         location = "group:rkAFURLConnectionOperation.m">
       </FileRef>
       <FileRef
          location = "group:UIImageView+AFNetworking.h">
